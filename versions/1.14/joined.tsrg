@@ -14282,7 +14282,7 @@ ahc net/minecraft/world/LockCode
 	a (Lbca;)Z func_219964_a
 	a (Lib;)V func_219965_a
 	b (Lib;)Lahc; func_180158_b
-ahd net/minecraft/src/C_1045_ahd
+ahd net/minecraft/world/INamedMenuProvider
 	d ()Ljm; func_145748_c_
 ahe net/minecraft/util/INameable
 	d ()Ljm; func_145748_c_
@@ -14306,7 +14306,7 @@ ahf net/minecraft/inventory/InventoryBasic
 	e ()V func_70296_d
 	M_ ()V func_174888_l
 	N_ ()I func_70302_i_
-ahg net/minecraft/src/C_1046_ahg
+ahg net/minecraft/world/SimpleNamedMenuProvider
 	a field_213137_a
 	b field_213138_b
 	d ()Ljm; func_145748_c_
@@ -23250,7 +23250,7 @@ axx net/minecraft/util/FoodStats
 	b (Lib;)V func_221411_b
 	c ()Z func_75121_c
 	e ()F func_75115_e
-axy net/minecraft/src/C_1265_axy
+axy net/minecraft/item/Food
 	a field_221470_a
 	b field_221471_b
 	c field_221472_c
@@ -23263,8 +23263,8 @@ axy net/minecraft/src/C_1265_axy
 	d ()Z func_221468_d
 	e ()Z func_221465_e
 	f ()Ljava/util/List; func_221464_f
-axy$1 net/minecraft/src/C_1265_axy$1
-axy$a net/minecraft/src/C_1265_axy$C_1266_a
+axy$1 net/minecraft/item/Food$1
+axy$a net/minecraft/item/Food$Builder
 	a field_221458_a
 	b field_221459_b
 	c field_221460_c
@@ -23278,7 +23278,7 @@ axy$a net/minecraft/src/C_1265_axy$C_1266_a
 	b ()Laxy$a; func_221455_b
 	c ()Laxy$a; func_221457_c
 	d ()Laxy; func_221453_d
-axz net/minecraft/src/C_1267_axz
+axz net/minecraft/item/Foods
 	a field_221425_a
 	b field_221426_b
 	c field_221427_c
@@ -23801,7 +23801,7 @@ aza$6 net/minecraft/inventory/ContainerLoom$6
 	a (Lavx;Lbca;)Lbca; func_190901_a
 	a (Lbca;)Z func_75214_a
 	a (Lbhh;Lev;)V func_216951_a
-azb net/minecraft/src/C_1277_azb
+azb net/minecraft/world/IMenuProvider
 	createMenu (ILavw;Lavx;)Layb; createMenu
 azc net/minecraft/inventory/MenuType
 	a field_221507_a
@@ -23831,7 +23831,7 @@ azc net/minecraft/inventory/MenuType
 	a (ILavw;)Layb; func_221506_a
 	a (Ljava/lang/String;Lazc$a;)Lazc; func_221505_a
 	b (ILavw;)Layz; func_221504_b
-azc$a net/minecraft/inventory/MenuType$C_1279_a
+azc$a net/minecraft/inventory/MenuType$Factory
 	create (ILavw;)Layb; create
 azd net/minecraft/inventory/InventoryMerchant
 	a field_70476_a
@@ -34949,7 +34949,7 @@ ceb net/minecraft/world/gen/feature/SnowBlockPileFeature
 	a (Lbhi;)Lbvj; func_214620_a
 cec net/minecraft/src/C_1421_cec
 	a ()V func_214746_a
-ced net/minecraft/src/C_1422_ced
+ced net/minecraft/world/gen/feature/EndSpikeFeatureConfig
 	a field_214674_a
 	b field_214675_b
 	c field_214676_c
@@ -34983,7 +34983,7 @@ cee$a net/minecraft/world/gen/feature/EndCrystalTowerFeature$EndSpike
 	d ()I func_186149_d
 	e ()Z func_186150_e
 	f ()Lcrq; func_186153_f
-cee$b net/minecraft/world/gen/feature/EndCrystalTowerFeature$C_1423_b
+cee$b net/minecraft/world/gen/feature/EndCrystalTowerFeature$EndSpikeCacheLoader
 	a (Ljava/lang/Long;)Ljava/util/List; load
 	load (Ljava/lang/Object;)Ljava/lang/Object; load
 cef net/minecraft/world/gen/feature/LiquidsConfig
@@ -35025,9 +35025,9 @@ cej net/minecraft/world/gen/feature/structure/Structure
 	b ()Ljava/lang/String; func_143025_a
 	b (Lbhi;Lev;)Z func_202366_b
 	c ()I func_202367_b
-cej$a net/minecraft/world/gen/feature/structure/Structure$C_1424_a
+cej$a net/minecraft/world/gen/feature/structure/Structure$IStructureStartFactory
 	create (Lcej;IILbie;Lchr;IJ)Lcil; create
-cek net/minecraft/src/C_1425_cek
+cek net/minecraft/world/gen/feature/structure/IStructurePieceType
 	a field_214780_a
 	b field_214781_b
 	c field_214782_c
