@@ -18027,11 +18027,11 @@ aqs net/minecraft/entity/passive/EntityCat
 	el ()V func_213418_el
 	em ()V func_213411_em
 	u_ ()V func_70088_a
-aqs$a net/minecraft/entity/passive/EntityCat$C_1158_a
+aqs$a net/minecraft/entity/passive/EntityCat$AIAvoidPlayer
 	i field_220873_i
 	a ()Z func_75250_a
 	b ()Z func_75253_b
-aqs$b net/minecraft/entity/passive/EntityCat$C_1159_b
+aqs$b net/minecraft/entity/passive/EntityCat$AIMorningGift
 	a field_220806_a
 	b field_220807_b
 	c field_220808_c
@@ -18043,7 +18043,7 @@ aqs$b net/minecraft/entity/passive/EntityCat$C_1159_b
 	e ()V func_75246_d
 	g ()Z func_220805_g
 	h ()V func_220804_h
-aqs$c net/minecraft/entity/passive/EntityCat$C_1160_c
+aqs$c net/minecraft/entity/passive/EntityCat$AITempt
 	c field_220763_c
 	d field_220764_d
 	a ()Z func_75250_a
@@ -18279,14 +18279,14 @@ aqy net/minecraft/entity/passive/EntityFox
 	eo ()Z func_213478_eo
 	u_ ()V func_70088_a
 aqy$1 net/minecraft/entity/passive/EntityFox$1
-aqy$a net/minecraft/entity/passive/EntityFox$C_1162_a
+aqy$a net/minecraft/entity/passive/EntityFox$AIRevenge
 	i field_220785_i
 	j field_220786_j
 	k field_220787_k
 	l field_220788_l
 	a ()Z func_75250_a
 	c ()V func_75249_e
-aqy$b net/minecraft/entity/passive/EntityFox$C_1163_b
+aqy$b net/minecraft/entity/passive/EntityFox$AIJump
 	a field_220811_a
 	b field_220812_b
 	a ()Z func_75250_a
@@ -18294,20 +18294,20 @@ aqy$b net/minecraft/entity/passive/EntityFox$C_1163_b
 	c ()V func_75249_e
 	d ()V func_75251_c
 	e ()V func_75246_d
-aqy$c net/minecraft/entity/passive/EntityFox$C_1164_c
+aqy$c net/minecraft/entity/passive/EntityFox$AlertablePredicate
 	a field_221079_a
 	a (Laio;)Z test
 	test (Ljava/lang/Object;)Z test
-aqy$d net/minecraft/entity/passive/EntityFox$C_1165_d
+aqy$d net/minecraft/entity/passive/EntityFox$AIBase
 	a field_220815_a
 	b field_220816_b
 	g ()Z func_220813_g
 	h ()Z func_220814_h
-aqy$e net/minecraft/entity/passive/EntityFox$C_1166_e
+aqy$e net/minecraft/entity/passive/EntityFox$AIMate
 	d field_220690_d
 	c ()V func_75249_e
 	g ()V func_75388_i
-aqy$f net/minecraft/entity/passive/EntityFox$C_1167_f
+aqy$f net/minecraft/entity/passive/EntityFox$AIEatBerries
 	g field_220731_g
 	h field_220732_h
 	a ()Z func_75250_a
@@ -18317,39 +18317,39 @@ aqy$f net/minecraft/entity/passive/EntityFox$C_1167_f
 	h ()D func_220726_h
 	j ()Z func_203108_i
 	m ()V func_220730_m
-aqy$g net/minecraft/entity/passive/EntityFox$C_1168_g
+aqy$g net/minecraft/entity/passive/EntityFox$AISwim
 	a field_220701_a
 	a ()Z func_75250_a
 	c ()V func_75249_e
-aqy$h net/minecraft/entity/passive/EntityFox$C_1169_h
+aqy$h net/minecraft/entity/passive/EntityFox$AIFollow
 	a field_220705_a
 	b field_220706_b
 	a ()Z func_75250_a
 	b ()Z func_75253_b
 	c ()V func_75249_e
-aqy$i net/minecraft/entity/passive/EntityFox$C_1170_i
+aqy$i net/minecraft/entity/passive/EntityFox$PackData
 	a field_220366_a
 	b field_220367_b
-aqy$j net/minecraft/entity/passive/EntityFox$C_1171_j
+aqy$j net/minecraft/entity/passive/EntityFox$AIWatch
 	f field_220717_f
 	a ()Z func_75250_a
 	b ()Z func_75253_b
-aqy$k net/minecraft/entity/passive/EntityFox$C_1172_k
+aqy$k net/minecraft/entity/passive/EntityFox$LookHelper
 	h field_220683_h
 	a ()V func_75649_a
 	b ()Z func_220680_b
-aqy$l net/minecraft/entity/passive/EntityFox$C_1173_l
+aqy$l net/minecraft/entity/passive/EntityFox$AIBite
 	d field_220721_d
 	a ()Z func_75250_a
 	a (Laio;D)V func_190102_a
 	c ()V func_75249_e
-aqy$m net/minecraft/entity/passive/EntityFox$C_1174_m
+aqy$m net/minecraft/entity/passive/EntityFox$MoveHelper
 	i field_220671_i
 	a ()V func_75641_c
-aqy$n net/minecraft/entity/passive/EntityFox$C_1175_n
+aqy$n net/minecraft/entity/passive/EntityFox$AIPanic
 	f field_220739_f
 	a ()Z func_75250_a
-aqy$o net/minecraft/entity/passive/EntityFox$C_1176_o
+aqy$o net/minecraft/entity/passive/EntityFox$AIPounce
 	a field_220714_a
 	a ()Z func_75250_a
 	b ()Z func_75253_b
@@ -18357,18 +18357,18 @@ aqy$o net/minecraft/entity/passive/EntityFox$C_1176_o
 	d ()V func_75251_c
 	e ()V func_75246_d
 	C_ ()Z func_220685_C_
-aqy$p net/minecraft/entity/passive/EntityFox$C_1177_p
+aqy$p net/minecraft/entity/passive/EntityFox$AIFindItems
 	a field_220826_a
 	a ()Z func_75250_a
 	c ()V func_75249_e
 	e ()V func_75246_d
-aqy$q net/minecraft/entity/passive/EntityFox$C_1178_q
+aqy$q net/minecraft/entity/passive/EntityFox$AIStroll
 	a field_220760_a
 	a ()Z func_75250_a
 	b ()Z func_75253_b
 	c ()V func_75249_e
 	g ()Z func_220759_g
-aqy$r net/minecraft/entity/passive/EntityFox$C_1179_r
+aqy$r net/minecraft/entity/passive/EntityFox$AISitAndLook
 	b field_220818_b
 	c field_220819_c
 	d field_220820_d
@@ -18380,12 +18380,12 @@ aqy$r net/minecraft/entity/passive/EntityFox$C_1179_r
 	d ()V func_75251_c
 	e ()V func_75246_d
 	j ()V func_220817_j
-aqy$s net/minecraft/entity/passive/EntityFox$C_1180_s
+aqy$s net/minecraft/entity/passive/EntityFox$AIFindShelter
 	b field_220703_b
 	c field_220704_c
 	a ()Z func_75250_a
 	c ()V func_75249_e
-aqy$t net/minecraft/entity/passive/EntityFox$C_1181_t
+aqy$t net/minecraft/entity/passive/EntityFox$AISleep
 	b field_220824_b
 	c field_220825_c
 	a ()Z func_75250_a
@@ -18393,13 +18393,13 @@ aqy$t net/minecraft/entity/passive/EntityFox$C_1181_t
 	c ()V func_75249_e
 	d ()V func_75251_c
 	j ()Z func_220823_j
-aqy$u net/minecraft/entity/passive/EntityFox$C_1182_u
+aqy$u net/minecraft/entity/passive/EntityFox$AIFollowTarget
 	a field_220827_a
 	a ()Z func_75250_a
 	c ()V func_75249_e
 	d ()V func_75251_c
 	e ()V func_75246_d
-aqy$v net/minecraft/entity/passive/EntityFox$C_1183_v
+aqy$v net/minecraft/entity/passive/EntityFox$Type
 	a RED
 	b SNOW
 	c field_221088_c
@@ -18463,7 +18463,7 @@ ara net/minecraft/entity/passive/EntityMooshroom
 	j (Lbca;)Lorg/apache/commons/lang3/tuple/Pair; func_213443_j
 	dV ()Lara$a; func_213444_dV
 	u_ ()V func_70088_a
-ara$a net/minecraft/entity/passive/EntityMooshroom$C_1184_a
+ara$a net/minecraft/entity/passive/EntityMooshroom$Type
 	a RED
 	b BROWN
 	c field_221098_c
@@ -18509,11 +18509,11 @@ arb net/minecraft/entity/passive/EntityOcelot
 	dW ()V func_213525_dW
 	dX ()Z func_213530_dX
 	u_ ()V func_70088_a
-arb$a net/minecraft/entity/passive/EntityOcelot$C_1185_a
+arb$a net/minecraft/entity/passive/EntityOcelot$AIAvoidEntity
 	i field_220874_i
 	a ()Z func_75250_a
 	b ()Z func_75253_b
-arb$b net/minecraft/entity/passive/EntityOcelot$C_1186_b
+arb$b net/minecraft/entity/passive/EntityOcelot$AITempt
 	c field_220765_c
 	g ()Z func_220761_g
 arc net/minecraft/entity/passive/EntityPanda
@@ -18615,7 +18615,7 @@ arc net/minecraft/entity/passive/EntityPanda
 	eB ()V func_213586_eB
 	u_ ()V func_70088_a
 arc$1 net/minecraft/entity/passive/EntityPanda$1
-arc$a net/minecraft/entity/passive/EntityPanda$C_1188_a
+arc$a net/minecraft/entity/passive/EntityPanda$Type
 	a NORMAL
 	b LAZY
 	c WORRIED
@@ -18639,47 +18639,47 @@ arc$a net/minecraft/entity/passive/EntityPanda$C_1188_a
 	c ()Z func_221107_c
 	values ()[Larc$a; values
 	valueOf (Ljava/lang/String;)Larc$a; valueOf
-arc$b net/minecraft/entity/passive/EntityPanda$C_1189_b
+arc$b net/minecraft/entity/passive/EntityPanda$AIAttack
 	d field_220722_d
 	a ()Z func_75250_a
-arc$c net/minecraft/entity/passive/EntityPanda$C_1190_c
+arc$c net/minecraft/entity/passive/EntityPanda$AIAvoid
 	i field_220875_i
 	a ()Z func_75250_a
-arc$d net/minecraft/entity/passive/EntityPanda$C_1191_d
+arc$d net/minecraft/entity/passive/EntityPanda$AIMate
 	d field_220692_d
 	e field_220693_e
 	f field_220694_f
 	a ()Z func_75250_a
 	h ()Z func_220691_h
-arc$e net/minecraft/entity/passive/EntityPanda$C_1192_e
-arc$f net/minecraft/entity/passive/EntityPanda$C_1193_f
+arc$e net/minecraft/entity/passive/EntityPanda$PandaData
+arc$f net/minecraft/entity/passive/EntityPanda$AIRevenge
 	a field_220798_a
 	a (Laip;Laio;)V func_220793_a
 	b ()Z func_75253_b
-arc$g net/minecraft/entity/passive/EntityPanda$C_1194_g
+arc$g net/minecraft/entity/passive/EntityPanda$AILieBack
 	a field_220828_a
 	b field_220829_b
 	a ()Z func_75250_a
 	b ()Z func_75253_b
 	c ()V func_75249_e
 	d ()V func_75251_c
-arc$h net/minecraft/entity/passive/EntityPanda$C_1195_h
+arc$h net/minecraft/entity/passive/EntityPanda$AIWatch
 	f field_220718_f
 	a ()Z func_75250_a
-arc$i net/minecraft/entity/passive/EntityPanda$C_1196_i
+arc$i net/minecraft/entity/passive/EntityPanda$MoveHelper
 	i field_220672_i
 	a ()V func_75641_c
-arc$j net/minecraft/entity/passive/EntityPanda$C_1197_j
+arc$j net/minecraft/entity/passive/EntityPanda$AIPanic
 	f field_220740_f
 	a ()Z func_75250_a
 	b ()Z func_75253_b
-arc$k net/minecraft/entity/passive/EntityPanda$C_1198_k
+arc$k net/minecraft/entity/passive/EntityPanda$AIRoll
 	a field_220830_a
 	a ()Z func_75250_a
 	b ()Z func_75253_b
 	c ()V func_75249_e
 	C_ ()Z func_220685_C_
-arc$l net/minecraft/entity/passive/EntityPanda$C_1199_l
+arc$l net/minecraft/entity/passive/EntityPanda$AISit
 	a field_220831_a
 	b field_220832_b
 	a ()Z func_75250_a
@@ -18687,7 +18687,7 @@ arc$l net/minecraft/entity/passive/EntityPanda$C_1199_l
 	c ()V func_75249_e
 	d ()V func_75251_c
 	e ()V func_75246_d
-arc$m net/minecraft/entity/passive/EntityPanda$C_1200_m
+arc$m net/minecraft/entity/passive/EntityPanda$AIChildPlay
 	a field_220833_a
 	a ()Z func_75250_a
 	b ()Z func_75253_b
@@ -19605,7 +19605,7 @@ arz net/minecraft/entity/passive/EntityTraderLlama
 	v (I)V func_213801_v
 	eB ()Z func_213800_eB
 	eF ()Larv; func_213799_eF
-arz$a net/minecraft/entity/passive/EntityTraderLlama$C_1202_a
+arz$a net/minecraft/entity/passive/EntityTraderLlama$AIFollowTrader
 	a field_220799_a
 	b field_220800_b
 	c field_220801_c
@@ -39018,13 +39018,13 @@ cpt net/minecraft/world/storage/loot/functions/LimitCount
 	a (Lcok;[Lcqy;)Lcpv; func_215912_a
 	a (Lcpt;)Lcok; func_215913_a
 cpt$1 net/minecraft/world/storage/loot/functions/LimitCount$1
-cpt$a net/minecraft/world/storage/loot/functions/LimitCount$C_1555_a
+cpt$a net/minecraft/world/storage/loot/functions/LimitCount$Serializer
 	a (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcqy;)Lcpt; func_212836_b_
 	a (Lcom/google/gson/JsonObject;Lcpt;Lcom/google/gson/JsonSerializationContext;)V func_186532_a
 	a (Lcom/google/gson/JsonObject;Lcpu;Lcom/google/gson/JsonSerializationContext;)V func_186532_a
 	a (Lcom/google/gson/JsonObject;Lcpv;Lcom/google/gson/JsonSerializationContext;)V func_186532_a
 	b (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcqy;)Lcpu; func_212836_b_
-cpu net/minecraft/src/C_1556_cpu
+cpu net/minecraft/world/storage/loot/ConditionalLootFunction
 	a field_215861_a
 	b field_215862_b
 	a (Lbca;Lcol;)Lbca; func_215859_a
@@ -39032,7 +39032,7 @@ cpu net/minecraft/src/C_1556_cpu
 	a (Ljava/util/function/Function;)Lcpu$a; func_215860_a
 	b (Lbca;Lcol;)Lbca; apply
 	apply (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; apply
-cpu$a net/minecraft/src/C_1556_cpu$C_1557_a
+cpu$a net/minecraft/world/storage/loot/ConditionalLootFunction$Builder
 	a field_216054_a
 	a (Lcqy$a;)Lcpu$a; func_212840_b_
 	b (Lcqy$a;)Ljava/lang/Object; func_212840_b_
@@ -39040,12 +39040,12 @@ cpu$a net/minecraft/src/C_1556_cpu$C_1557_a
 	d ()Lcpu$a; func_212826_d_
 	f ()Lcpu$a; func_212862_c_
 	g ()[Lcqy; func_216053_g
-cpu$b net/minecraft/src/C_1556_cpu$C_1558_b
+cpu$b net/minecraft/world/storage/loot/ConditionalLootFunction$SimpleBuilder
 	a field_216071_a
 	a ()Lcpu$b; func_212826_d_
 	b ()Lcpv; func_216052_b
 	d ()Lcpu$a; func_212826_d_
-cpu$c net/minecraft/src/C_1556_cpu$C_1559_c
+cpu$c net/minecraft/world/storage/loot/ConditionalLootFunction$Serializer
 	a (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcpu; func_212870_b_
 	a (Lcom/google/gson/JsonObject;Lcpu;Lcom/google/gson/JsonSerializationContext;)V func_186532_a
 	a (Lcom/google/gson/JsonObject;Lcpv;Lcom/google/gson/JsonSerializationContext;)V func_186532_a
@@ -39054,7 +39054,7 @@ cpu$c net/minecraft/src/C_1556_cpu$C_1559_c
 cpv net/minecraft/world/storage/loot/functions/LootFunction
 	a (Ljava/util/function/BiFunction;Ljava/util/function/Consumer;Lcol;)Ljava/util/function/Consumer; func_215858_a
 	a (Ljava/util/function/Consumer;Ljava/util/function/BiFunction;Lcol;Lbca;)V func_215857_a
-cpv$a net/minecraft/world/storage/loot/functions/LootFunction$C_1560_a
+cpv$a net/minecraft/world/storage/loot/functions/LootFunction$Builder
 	b ()Lcpv; func_216052_b
 cpv$b net/minecraft/world/storage/loot/functions/LootFunction$Serializer
 	a field_186533_a
@@ -39090,7 +39090,7 @@ cpx net/minecraft/world/storage/loot/functions/LootingEnchantBonus
 	b (Lcpx;)Z func_215918_b
 	c (Lcpx;)I func_215916_c
 cpx$1 net/minecraft/world/storage/loot/functions/LootingEnchantBonus$1
-cpx$a net/minecraft/world/storage/loot/functions/LootingEnchantBonus$C_1561_a
+cpx$a net/minecraft/world/storage/loot/functions/LootingEnchantBonus$Builder
 	a field_216073_a
 	b field_216074_b
 	a ()Lcpx$a; func_212826_d_
@@ -39141,13 +39141,13 @@ cpz net/minecraft/world/storage/loot/functions/SetContents
 	a (Lfj;Lcol;Lcpd;)V func_215922_a
 	b ()Lcpz$a; func_215920_b
 cpz$1 net/minecraft/world/storage/loot/functions/SetContents$1
-cpz$a net/minecraft/world/storage/loot/functions/SetContents$C_1563_a
+cpz$a net/minecraft/world/storage/loot/functions/SetContents$Builder
 	a field_216076_a
 	a ()Lcpz$a; func_212826_d_
 	a (Lcpe$a;)Lcpz$a; func_216075_a
 	b ()Lcpv; func_216052_b
 	d ()Lcpu$a; func_212826_d_
-cpz$b net/minecraft/world/storage/loot/functions/SetContents$C_1564_b
+cpz$b net/minecraft/world/storage/loot/functions/SetContents$Serializer
 	a (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcqy;)Lcpz; func_212836_b_
 	a (Lcom/google/gson/JsonObject;Lcpu;Lcom/google/gson/JsonSerializationContext;)V func_186532_a
 	a (Lcom/google/gson/JsonObject;Lcpv;Lcom/google/gson/JsonSerializationContext;)V func_186532_a
@@ -39161,7 +39161,7 @@ cqa net/minecraft/world/storage/loot/functions/SetLootTable
 	a (Lcqa;)Lqs; func_215926_a
 	b (Lcqa;)J func_215927_b
 cqa$1 net/minecraft/world/storage/loot/functions/SetLootTable$1
-cqa$a net/minecraft/world/storage/loot/functions/SetLootTable$C_1566_a
+cqa$a net/minecraft/world/storage/loot/functions/SetLootTable$Serializer
 	a (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcqy;)Lcqa; func_212836_b_
 	a (Lcom/google/gson/JsonObject;Lcpu;Lcom/google/gson/JsonSerializationContext;)V func_186532_a
 	a (Lcom/google/gson/JsonObject;Lcpv;Lcom/google/gson/JsonSerializationContext;)V func_186532_a
@@ -39204,7 +39204,7 @@ cqd net/minecraft/world/storage/loot/functions/SetLore
 	a (Lcqd;)Z func_215944_a
 	b (Lcqd;)Ljava/util/List; func_215943_b
 	c (Lcqd;)Lcol$c; func_215941_c
-cqd$b net/minecraft/world/storage/loot/functions/SetLore$C_1568_b
+cqd$b net/minecraft/world/storage/loot/functions/SetLore$Serializer
 	a (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcqy;)Lcqd; func_212836_b_
 	a (Lcom/google/gson/JsonObject;Lcpu;Lcom/google/gson/JsonSerializationContext;)V func_186532_a
 	a (Lcom/google/gson/JsonObject;Lcpv;Lcom/google/gson/JsonSerializationContext;)V func_186532_a
@@ -39247,13 +39247,13 @@ cqg net/minecraft/world/storage/loot/functions/SetStewEffect
 	a (Lcqg;)Ljava/util/Map; func_215949_a
 	b ()Lcqg$a; func_215948_b
 cqg$1 net/minecraft/world/storage/loot/functions/SetStewEffect$1
-cqg$a net/minecraft/world/storage/loot/functions/SetStewEffect$C_1570_a
+cqg$a net/minecraft/world/storage/loot/functions/SetStewEffect$Builder
 	a field_216078_a
 	a ()Lcqg$a; func_212826_d_
 	a (Lahx;Lcou;)Lcqg$a; func_216077_a
 	b ()Lcpv; func_216052_b
 	d ()Lcpu$a; func_212826_d_
-cqg$b net/minecraft/world/storage/loot/functions/SetStewEffect$C_1571_b
+cqg$b net/minecraft/world/storage/loot/functions/SetStewEffect$Serializer
 	a (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcqy;)Lcqg; func_212836_b_
 	a (Lcom/google/gson/JsonObject;Lcpu;Lcom/google/gson/JsonSerializationContext;)V func_186532_a
 	a (Lcom/google/gson/JsonObject;Lcpv;Lcom/google/gson/JsonSerializationContext;)V func_186532_a
@@ -39329,7 +39329,7 @@ cqp net/minecraft/world/storage/loot/conditions/Alternative
 	a ([Lcqy$a;)Lcqp$a; func_215960_a
 	test (Ljava/lang/Object;)Z test
 cqp$1 net/minecraft/world/storage/loot/conditions/Alternative$1
-cqp$a net/minecraft/world/storage/loot/conditions/Alternative$C_1578_a
+cqp$a net/minecraft/world/storage/loot/conditions/Alternative$Builder
 	a field_216303_a
 	a (Lcqy$a;)Lcqp$a; func_216297_a
 	build ()Lcqy; build
@@ -41056,7 +41056,7 @@ cuv net/minecraft/src/C_1637_cuv
 	b (I)[Lcuv; func_216750_b
 	values ()[Lcuv; values
 	valueOf (Ljava/lang/String;)Lcuv; valueOf
-cuw net/minecraft/src/C_1638_cuw
+cuw net/minecraft/client/settings/BooleanOption
 	Q field_216746_Q
 	R field_216747_R
 	a (Lcvm;)V func_216740_a
@@ -41542,7 +41542,7 @@ cvk net/minecraft/src/C_1644_cvk
 	b (I)[Lcvk; func_216826_b
 	values ()[Lcvk; values
 	valueOf (Ljava/lang/String;)Lcvk; valueOf
-cvl net/minecraft/src/C_1645_cvl
+cvl net/minecraft/client/settings/Option
 	a field_216694_a
 	b field_216695_b
 	c field_216696_c
@@ -45373,7 +45373,7 @@ deb net/minecraft/client/renderer/entity/model/ModelBook
 	g field_78097_g
 	a (FFFFFF)V func_217103_a
 	b (FFFFFF)V func_217102_b
-dec net/minecraft/src/C_1705_dec
+dec net/minecraft/client/renderer/entity/model/ModelCat
 	m field_217155_m
 	n field_217156_n
 	o field_217157_o
@@ -45455,7 +45455,7 @@ dem net/minecraft/client/renderer/entity/model/ModelEnderMite
 	g field_178713_d
 	a (Laif;FFFFFF)V func_212844_a_
 	b (Laif;FFFFFF)V func_78088_a
-den net/minecraft/src/C_1706_den
+den net/minecraft/client/renderer/entity/model/ModelEntity
 	c field_217112_c
 	d field_217113_d
 	e field_217114_e
@@ -45491,7 +45491,7 @@ deq net/minecraft/client/renderer/entity/model/ModelGhast
 	b field_78127_b
 	a (Laif;FFFFFF)V func_212844_a_
 	b (Laif;FFFFFF)V func_78088_a
-der net/minecraft/src/C_1708_der
+der net/minecraft/client/renderer/entity/model/ModelGiant
 	a (Laue;)Z func_212850_a_
 	a (Lauj;)Z func_212850_a_
 des net/minecraft/client/renderer/entity/model/ModelGuardian
@@ -45702,7 +45702,7 @@ dfi net/minecraft/client/renderer/entity/model/ModelPhantom
 	a (Laif;FFFFFF)V func_212844_a_
 	b (Laif;FFFFFF)V func_78088_a
 dfj net/minecraft/client/renderer/entity/model/ModelPig
-dfk net/minecraft/src/C_1711_dfk
+dfk net/minecraft/client/renderer/entity/model/ModelPillager
 	a (Latr;FFFFFF)V func_212851_b_
 	b (Laif;FFFFFF)V func_212851_b_
 dfl net/minecraft/client/renderer/entity/model/ModelPlayer
@@ -46623,15 +46623,15 @@ dhy$a net/minecraft/client/particle/ParticleBubblePop$Factory
 	a field_217509_a
 	a (Lgd;Lbhh;DDDDDD)Ldit; func_199234_a
 	a (Lgg;Lbhh;DDDDDD)Ldit; func_199234_a
-dhz net/minecraft/src/C_1716_dhz
+dhz net/minecraft/client/particle/ParticleCampfire
 	a ()V func_189213_a
 	b ()Ldix; func_217558_b
-dhz$1 net/minecraft/src/C_1716_dhz$1
-dhz$a net/minecraft/src/C_1716_dhz$C_1717_a
+dhz$1 net/minecraft/client/particle/ParticleCampfire$1
+dhz$a net/minecraft/client/particle/ParticleCampfire$CozySmokeFactory
 	a field_217511_a
 	a (Lgd;Lbhh;DDDDDD)Ldit; func_199234_a
 	a (Lgg;Lbhh;DDDDDD)Ldit; func_199234_a
-dhz$b net/minecraft/src/C_1716_dhz$C_1718_b
+dhz$b net/minecraft/client/particle/ParticleCampfire$SignalSmokeFactory
 	a field_217512_a
 	a (Lgd;Lbhh;DDDDDD)Ldit; func_199234_a
 	a (Lgg;Lbhh;DDDDDD)Ldit; func_199234_a
