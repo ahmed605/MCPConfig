@@ -16056,7 +16056,7 @@ ajp$a net/minecraft/entity/ai/brain/task/Task$Status
 	c $VALUES
 	values ()[Lajp$a; values
 	valueOf (Ljava/lang/String;)Lajp$a; valueOf
-ajq net/minecraft/src/C_1060_ajq
+ajq net/minecraft/util/math/BlockPosWrapper
 	a (Laij;Laio;)Z func_220622_a
 	a (Laio;Laio;)V func_220618_a
 	a (Laio;Laio;I)V func_220621_a
@@ -16096,7 +16096,7 @@ ajt net/minecraft/src/C_1063_ajt
 aju net/minecraft/src/C_1064_aju
 	a ()Ljava/util/Set; func_220381_a
 	g (Lvg;Laio;J)Z func_212834_g_
-ajv net/minecraft/src/C_1065_ajv
+ajv net/minecraft/util/math/EntityPosWrapper
 	a field_220611_a
 	a ()Lev; func_220608_a
 	a (Laio;)Z func_220610_a
@@ -16343,7 +16343,7 @@ akk net/minecraft/src/C_1082_akk
 	d (Lvg;Laip;J)V func_212833_d_
 	f (Lvg;Laio;J)V func_212835_f_
 	g (Lvg;Laio;J)Z func_212834_g_
-akl net/minecraft/src/C_1083_akl
+akl net/minecraft/entity/ai/brain/task/PanicTask
 	a ()Ljava/util/Set; func_220381_a
 	a (Laio;)Z func_220513_a
 	a (Lvg;Laio;J)V func_212831_a_
@@ -16371,7 +16371,7 @@ akm net/minecraft/src/C_1084_akm
 	c (Laiv;)Ljava/util/Map; func_220505_c
 	d (Laiv;)Ljava/util/List; func_220503_d
 	e (Laiv;)Z func_220501_e
-akn net/minecraft/src/C_1085_akn
+akn net/minecraft/util/math/IPosWrapper
 	a ()Lev; func_220608_a
 	a (Laio;)Z func_220610_a
 	b ()Lcrv; func_220609_b
@@ -16537,7 +16537,7 @@ alh net/minecraft/src/C_1104_alh
 	a (Lvg;Laio;J)V func_212831_a_
 	a (Lvg;Lavk;)Z func_212832_a_
 	a (Lvg;Lavk;J)V func_212831_a_
-ali net/minecraft/src/C_1105_ali
+ali net/minecraft/entity/ai/brain/task/SwimTask
 	a field_220589_a
 	b field_220590_b
 	a ()Ljava/util/Set; func_220381_a
@@ -16563,7 +16563,7 @@ alj net/minecraft/src/C_1106_alj
 	d (Lvg;Lavk;J)V func_212835_f_
 	f (Lvg;Laio;J)V func_212835_f_
 	g (Lvg;Laio;J)Z func_212834_g_
-alk net/minecraft/src/C_1107_alk
+alk net/minecraft/entity/ai/brain/task/UpdateActivityTask
 	a ()Ljava/util/Set; func_220381_a
 	a (Lvg;Laio;J)V func_212831_a_
 alm net/minecraft/src/C_1108_alm
@@ -16584,7 +16584,7 @@ alo net/minecraft/src/C_1110_alo
 	a (Lvg;Laio;J)V func_212831_a_
 	a (Lvg;Laiv;J)V func_212831_a_
 	b (Lcrv;)Lapd; func_220596_b
-alp net/minecraft/src/C_1111_alp
+alp net/minecraft/entity/ai/brain/task/VillagerTasks
 	a ()Lcom/mojang/datafixers/util/Pair; func_220643_a
 	a (F)Lcom/google/common/collect/ImmutableList; func_220645_a
 	a (Lavn;F)Lcom/google/common/collect/ImmutableList; func_220638_a
@@ -16601,7 +16601,7 @@ alq net/minecraft/entity/ai/brain/task/WakeUpTask
 	a ()Ljava/util/Set; func_220381_a
 	a (Lvg;Laio;)Z func_212832_a_
 	a (Lvg;Laio;J)V func_212831_a_
-alr net/minecraft/src/C_1113_alr
+alr net/minecraft/util/WeightedList
 	a field_220658_a
 	b field_220659_b
 	a ()V func_220654_a
@@ -16609,8 +16609,8 @@ alr net/minecraft/src/C_1113_alr
 	a (Ljava/lang/Object;I)V func_220656_a
 	b ()Ljava/util/stream/Stream; func_220655_b
 	toString ()Ljava/lang/String; toString
-alr$1 net/minecraft/src/C_1113_alr$1
-alr$a net/minecraft/src/C_1113_alr$C_1114_a
+alr$1 net/minecraft/util/WeightedList$1
+alr$a net/minecraft/util/WeightedList$Entry
 	a field_220650_a
 	b field_220651_b
 	c field_220652_c
@@ -26630,7 +26630,7 @@ bgj net/minecraft/entity/IMerchant
 	dY ()Lbgl; func_213706_dY
 	dZ ()Z func_213705_dZ
 	ee ()Lbhh; func_190670_t_
-bgk net/minecraft/src/C_1314_bgk
+bgk net/minecraft/item/MerchantOffer
 	a field_222223_a
 	b field_222224_b
 	c field_222225_c
@@ -26664,7 +26664,7 @@ bgk net/minecraft/src/C_1314_bgk
 	p ()V func_222216_p
 	q ()Z func_222221_q
 	r ()Lib; func_222208_r
-bgl net/minecraft/src/C_1315_bgl
+bgl net/minecraft/item/MerchantOffers
 	a ()Lib; func_222199_a
 	a (Lbca;Lbca;I)Lbgk; func_222197_a
 	a (Ljc;)V func_222196_a
