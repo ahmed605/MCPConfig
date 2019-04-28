@@ -15022,7 +15022,7 @@ aif net/minecraft/entity/Entity
 aif$1 net/minecraft/entity/Entity$1
 	a field_210287_a
 	b field_210288_b
-aig net/minecraft/entity/EntityDimensions
+aig net/minecraft/entity/EntitySize
 	a field_220315_a
 	b field_220316_b
 	c field_220317_c
@@ -16031,7 +16031,7 @@ ajo net/minecraft/src/C_1057_ajo
 	a (Lvg;Laio;J)V func_212831_a_
 	a (Lvg;Lavk;)Z func_212832_a_
 	a (Lvg;Lavk;J)V func_212831_a_
-ajp net/minecraft/src/C_1058_ajp
+ajp net/minecraft/entity/ai/brain/task/Task
 	a field_220384_a
 	b field_220385_b
 	c field_220386_c
@@ -16050,7 +16050,7 @@ ajp net/minecraft/src/C_1058_ajp
 	f (Lvg;Laio;J)V func_212835_f_
 	g (Lvg;Laio;J)Z func_212834_g_
 	toString ()Ljava/lang/String; toString
-ajp$a net/minecraft/src/C_1058_ajp$C_1059_a
+ajp$a net/minecraft/entity/ai/brain/task/Task$Status
 	a STOPPED
 	b RUNNING
 	c $VALUES
@@ -16597,7 +16597,7 @@ alp net/minecraft/src/C_1111_alp
 	g (Lavn;F)Lcom/google/common/collect/ImmutableList; func_220642_g
 	h (Lavn;F)Lcom/google/common/collect/ImmutableList; func_220640_h
 	i (Lavn;F)Lcom/google/common/collect/ImmutableList; func_220644_i
-alq net/minecraft/src/C_1112_alq
+alq net/minecraft/entity/ai/brain/task/WakeUpTask
 	a ()Ljava/util/Set; func_220381_a
 	a (Lvg;Laio;)Z func_212832_a_
 	a (Lvg;Laio;J)V func_212831_a_
@@ -17711,7 +17711,7 @@ aqe net/minecraft/village/VillageSiege
 	a (Lev;)Lcrv; func_179867_a
 	b ()Z func_75529_b
 	c ()V func_221026_c
-aqe$a net/minecraft/village/VillageSiege$C_1150_a
+aqe$a net/minecraft/village/VillageSiege$State
 	a SIEGE_CAN_ACTIVATE
 	b SIEGE_TONIGHT
 	c SIEGE_DONE
@@ -19621,7 +19621,7 @@ asa net/minecraft/entity/passive/EntityZombieHorse
 	cG ()Lyj; func_184615_bR
 	cP ()Lais; func_70668_bt
 	ee ()V func_205714_dM
-ase net/minecraft/src/C_1204_ase
+ase net/minecraft/entity/boss/dragon/DragonEntityPart
 	b field_213852_b
 	c field_213853_c
 	d field_213854_d
@@ -21596,7 +21596,7 @@ ave net/minecraft/entity/monster/EntityZombieVillager
 	eg ()I func_190735_dq
 	eh ()Lavl; func_213700_eh
 	u_ ()V func_70088_a
-avg net/minecraft/src/C_1221_avg
+avg net/minecraft/entity/passive/AbstractVillagerEntity
 	bz field_213724_bz
 	bA field_213725_bA
 	bB field_213722_bB
@@ -21627,7 +21627,7 @@ avg net/minecraft/src/C_1221_avg
 	ed ()Lahf; func_213715_ed
 	ee ()Lbhh; func_190670_t_
 	ef ()V func_213712_ef
-avh net/minecraft/src/C_1222_avh
+avh net/minecraft/world/spawner/CatSpawner
 	a field_221125_a
 	a (Lbhh;Lev;)I func_221123_a
 	a (Lev;Lbhh;)I func_221122_a
@@ -21741,7 +21741,7 @@ avk$a net/minecraft/entity/passive/EntityVillager$C_1223_a
 	a (Lavk$a;J)Z func_221141_a
 	b (J)V func_221142_b
 	c (J)Z func_221140_c
-avl net/minecraft/src/C_1224_avl
+avl net/minecraft/entity/villager/VillagerData
 	a field_221136_a
 	b field_221137_b
 	c field_221138_c
@@ -21756,7 +21756,7 @@ avl net/minecraft/src/C_1224_avl
 	c ()I func_221132_c
 	c (I)I func_221127_c
 	d (I)Z func_221128_d
-avm net/minecraft/src/C_1225_avm
+avm net/minecraft/entity/villager/IVillagerDataHolder
 	eh ()Lavl; func_213700_eh
 avn net/minecraft/entity/villager/VillagerProfession
 	a field_221151_a
@@ -21919,7 +21919,7 @@ avq$a net/minecraft/entity/passive/EntityWanderingTrader$C_1241_a
 	a (Lev;D)Z func_220846_a
 	d ()V func_75251_c
 	e ()V func_75246_d
-avr net/minecraft/src/C_1242_avr
+avr net/minecraft/world/spawner/WanderingTraderSpawner
 	a field_221246_a
 	b field_221247_b
 	c field_221248_c
@@ -34682,7 +34682,7 @@ ccf net/minecraft/world/gen/feature/LakesFeature
 	a field_205188_a
 	a (Lbhi;Lbwy;Ljava/util/Random;Lev;Lcbe;)Z func_212245_a
 	a (Lbhi;Lbwy;Ljava/util/Random;Lev;Lcce;)Z func_212245_a
-ccg net/minecraft/src/C_1410_ccg
+ccg net/minecraft/world/gen/feature/FillLayerConfig
 	a field_214636_a
 	b field_214637_b
 	a (Lcom/mojang/datafixers/Dynamic;)Lccg; func_214635_a
@@ -34810,7 +34810,7 @@ ccw net/minecraft/world/gen/feature/MinableFeature
 	a (Lbhi;Lbwy;Ljava/util/Random;Lev;Lcbe;)Z func_212245_a
 	a (Lbhi;Lbwy;Ljava/util/Random;Lev;Lccv;)Z func_212245_a
 	a (Lbhi;Ljava/util/Random;Lccv;DDDDDDIIIII)Z func_207803_a
-ccx net/minecraft/src/C_1414_ccx
+ccx net/minecraft/world/gen/feature/structure/PillagerOutpostConfig
 	a field_214643_a
 	a (Lcom/mojang/datafixers/Dynamic;)Lccx; func_214642_a
 	a (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic; func_214634_a
@@ -38463,7 +38463,7 @@ coo net/minecraft/world/storage/loot/LootPool
 	d (Lcoo;)[Lcqy; func_216094_d
 	e (Lcoo;)[Lcpv; func_216098_e
 coo$1 net/minecraft/world/storage/loot/LootPool$1
-coo$a net/minecraft/world/storage/loot/LootPool$C_1500_a
+coo$a net/minecraft/world/storage/loot/LootPool$Builder
 	a field_216047_a
 	b field_216048_b
 	c field_216049_c
@@ -38507,7 +38507,7 @@ cop net/minecraft/world/storage/loot/LootTable
 	c ()Lorg/apache/logging/log4j/Logger; func_216115_c
 	c (Lcop;)[Lcpv; func_216116_c
 cop$1 net/minecraft/world/storage/loot/LootTable$1
-cop$a net/minecraft/world/storage/loot/LootTable$C_1501_a
+cop$a net/minecraft/world/storage/loot/LootTable$Builder
 	a field_216041_a
 	b field_216042_b
 	c field_216043_c
@@ -41028,7 +41028,7 @@ cut net/minecraft/client/renderer/Vector4f
 	d ()F func_195915_d
 	equals (Ljava/lang/Object;)Z equals
 	hashCode ()I hashCode
-cuu net/minecraft/src/C_1636_cuu
+cuu net/minecraft/client/settings/AmbientOcclusionStatus
 	a OFF
 	b MIN
 	c MAX
@@ -41042,7 +41042,7 @@ cuu net/minecraft/src/C_1636_cuu
 	b (I)[Lcuu; func_216571_b
 	values ()[Lcuu; values
 	valueOf (Ljava/lang/String;)Lcuu; valueOf
-cuv net/minecraft/src/C_1637_cuv
+cuv net/minecraft/client/settings/AttackIndicatorStatus
 	a OFF
 	b CROSSHAIR
 	c HOTBAR
@@ -41527,7 +41527,7 @@ cvj net/minecraft/client/MouseHelper
 	h ()Z func_198035_h
 	i ()V func_198034_i
 	j ()V func_198032_j
-cvk net/minecraft/src/C_1644_cvk
+cvk net/minecraft/client/settings/NarratorStatus
 	a OFF
 	b ALL
 	c CHAT
@@ -41807,7 +41807,7 @@ cvm$1 net/minecraft/client/GameSettings$1
 	getActualTypeArguments ()[Ljava/lang/reflect/Type; getActualTypeArguments
 cvm$2 net/minecraft/client/GameSettings$2
 	a field_216838_a
-cvn net/minecraft/src/C_1646_cvn
+cvn net/minecraft/client/settings/ParticleStatus
 	a ALL
 	b DECREASED
 	c MINIMAL
