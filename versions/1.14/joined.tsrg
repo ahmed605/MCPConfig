@@ -3402,7 +3402,7 @@ fq net/minecraft/util/math/Vec3i
 	hashCode ()I hashCode
 	toString ()Ljava/lang/String; toString
 	compareTo (Ljava/lang/Object;)I compareTo
-fr net/minecraft/src/C_1798_fr
+fr net/minecraft/util/registry/MutableRegistry
 	a (ILqs;Ljava/lang/Object;)Ljava/lang/Object; func_218382_a
 	a (Lqs;Ljava/lang/Object;)Ljava/lang/Object; func_218381_a
 	c ()Z func_195866_d
@@ -6647,7 +6647,7 @@ no net/minecraft/network/play/server/SPacketTagsList
 	a (Lkd;)V func_148833_a
 	b ()Lzd; func_199858_a
 	b (Ljc;)V func_148840_b
-np net/minecraft/src/C_1831_np
+np net/minecraft/network/DebugPacketSender
 	a field_218807_a
 	a (Laio;)V func_218798_a
 	a (Lbhh;Laip;Lamw;)V func_218800_a
@@ -16175,7 +16175,7 @@ ajx net/minecraft/src/C_1069_ajx
 ajy net/minecraft/src/C_1070_ajy
 	a ()Ljava/util/Set; func_220381_a
 	a (Lvg;Laio;)Z func_212832_a_
-ajz net/minecraft/src/C_1071_ajz
+ajz net/minecraft/entity/ai/brain/task/FarmTask
 	a field_220422_a
 	b field_220423_b
 	c field_220424_c
@@ -16233,7 +16233,7 @@ akc net/minecraft/src/C_1074_akc
 	a (Lvg;Lfc;)Z func_220432_a
 	a (Lvg;Ljava/util/List;Ljava/util/List;)Ljava/util/Set; func_220436_a
 	a (Lvg;Ljava/util/List;Ljava/util/Set;I)V func_220434_a
-akd net/minecraft/src/C_1075_akd
+akd net/minecraft/entity/ai/brain/task/JumpOnBedTask
 	a field_220470_a
 	b field_220471_b
 	c field_220472_c
@@ -16260,7 +16260,7 @@ akd net/minecraft/src/C_1075_akd
 	f (Lvg;Laio;J)V func_212835_f_
 	f (Lvg;Laip;)Z func_220462_f
 	g (Lvg;Laio;J)Z func_212834_g_
-ake net/minecraft/src/C_1076_ake
+ake net/minecraft/entity/ai/brain/task/FindHidingPlaceTask
 	a field_220457_a
 	b field_220458_b
 	c field_220459_c
@@ -16272,7 +16272,7 @@ ake net/minecraft/src/C_1076_ake
 	a (Lvg;Laio;J)V func_212831_a_
 	b (Laqj;)Z func_220454_b
 	b (Lev;)Z func_220456_b
-akf net/minecraft/src/C_1077_akf
+akf net/minecraft/entity/ai/brain/task/FindHidingPlaceDuringRaidTask
 	a (Lvg;Laio;)Z func_212832_a_
 akg net/minecraft/src/C_1078_akg
 	a field_220476_a
@@ -16388,7 +16388,7 @@ akq net/minecraft/src/C_1088_akq
 	a ()Ljava/util/Set; func_220381_a
 	a (Lvg;Laio;)Z func_212832_a_
 	a (Lvg;Laio;J)V func_212831_a_
-akr net/minecraft/src/C_1089_akr
+akr net/minecraft/entity/ai/brain/task/RingBellTask
 	a ()Ljava/util/Set; func_220381_a
 	a (Lvg;Laio;)Z func_212832_a_
 	a (Lvg;Laio;J)V func_212831_a_
@@ -25667,7 +25667,7 @@ bco net/minecraft/item/ItemRecord
 	t ()Lyj; func_185075_h
 bcp net/minecraft/item/ItemSaddle
 	a (Lbca;Lavx;Laio;Lagz;)Z func_111207_a
-bcq net/minecraft/src/C_1291_bcq
+bcq net/minecraft/item/ScaffoldingItem
 	b (Lbae;)Lbae; func_219984_b
 	d ()Z func_219987_d
 bcr net/minecraft/util/CooldownTrackerServer

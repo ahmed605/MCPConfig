@@ -4478,7 +4478,7 @@
 50036 net/minecraft/entity/passive/EntityOcelot$AITempt (Lnet/minecraft/entity/passive/EntityOcelot;DLnet/minecraft/item/crafting/Ingredient;Z)V
 50037 net/minecraft/entity/passive/EntityOcelot$AIAvoidEntity (Lnet/minecraft/entity/passive/EntityOcelot;Ljava/lang/Class;FDD)V
 50038 net/minecraft/item/ItemSign (Lnet/minecraft/item/Item$Properties;Lnet/minecraft/block/Block;Lnet/minecraft/block/Block;)V
-50039 net/minecraft/src/C_1291_bcq (Lnet/minecraft/block/Block;Lnet/minecraft/item/Item$Properties;)V
+50039 net/minecraft/item/ScaffoldingItem (Lnet/minecraft/block/Block;Lnet/minecraft/item/Item$Properties;)V
 50040 net/minecraft/src/C_1290_bcm (Lnet/minecraft/item/Item$Properties;)V
 50041 net/minecraft/src/C_1289_bby (Lnet/minecraft/block/Block;Lnet/minecraft/item/Item$Properties;)V
 50042 net/minecraft/item/ItemHorseArmor (ILjava/lang/String;Lnet/minecraft/item/Item$Properties;)V
@@ -4799,9 +4799,9 @@
 50357 net/minecraft/src/C_1081_akj (F)V
 50358 net/minecraft/src/C_1079_akh (II)V
 50359 net/minecraft/src/C_1078_akg (F)V
-50360 net/minecraft/src/C_1077_akf (IF)V
-50361 net/minecraft/src/C_1076_ake (IFI)V
-50362 net/minecraft/src/C_1075_akd (F)V
+50360 net/minecraft/entity/ai/brain/task/FindHidingPlaceDuringRaidTask (IF)V
+50361 net/minecraft/entity/ai/brain/task/FindHidingPlaceTask (IFI)V
+50362 net/minecraft/entity/ai/brain/task/JumpOnBedTask (F)V
 50363 net/minecraft/src/C_1073_akb (Lnet/minecraft/entity/EntityType;ILjava/util/function/Predicate;Ljava/util/function/Predicate;Lnet/minecraft/entity/ai/brain/memory/MemoryModuleType;FI)V
 50364 net/minecraft/src/C_1072_aka (F)V
 50365 net/minecraft/src/C_1070_ajy (F)V
